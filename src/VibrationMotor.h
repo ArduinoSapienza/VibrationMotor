@@ -1,5 +1,5 @@
 /*
-  VibrationMotor.h - implementation
+  VibrationMotor.h - definition
   Copyright (c) 2023 Graziano Blasilli.
 */
 
