@@ -1,4 +1,4 @@
-# Arduino VibrationMotor Library
+# Arduino VibrationMotor Library v0.1.0
 
 ![Arduino Logo](./ArduinoCommunityLogo.png)
 
