@@ -23,4 +23,60 @@ The Arduino VibrationMotor library provides a simple and modular way to manage a
 1. **Include the Library:**
    ```cpp
    #include <VibrationMotor.h>
+   ```
 
+2. **Instantiate the VibrationMotor object:**
+   ```cpp
+   const int motorPin = 5;
+   // Specify the pin to which the vibration motor is connected
+   VibrationMotor myVibrationMotor(motorPin); 
+   ```
+
+## Features
+
+- Constructor
+   ```cpp
+      // Initialize the VibrationMotor with the specified Arduino pin.
+      VibrationMotor(uint8_t motorPin);
+   ```
+
+- Turn the Motor On
+   ```cpp
+      void on();
+      Turn the vibration motor on.
+   ```
+
+- Turn the Motor On with Intensity
+   ```cpp
+      void on(uint8_t intensity);
+   ```
+
+- Turn the Motor Off
+   ```cpp
+      void off();
+   ```
+
+- Pulse (Short On-Off)
+   ```cpp
+      void pulse();
+   ```
+
+- Pulse with Repetitions
+   ```cpp
+      void pulse(int repetitions);
+   ```
+
+- Pulse for a Specified Time (Custom On-Off)
+   ```cpp
+      void pulseFor(int time);
+   ```
+
+- Fade In Effect
+   ```cpp
+      void fadeIn();
+   ```
+
+- Fade Out Effect
+   ```cpp
+      void fadeOut();
+   ```
